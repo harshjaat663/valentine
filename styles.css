@@ -3,21 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-footer {
-  position: absolute;
-  bottom: 0;
-  height: auto;
-  text-align: center;
-  width: 100%;
-  font-size: 25px;
-  background-color: rgba(255, 255, 255, 0.242);
-}
-body {
+html body {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: 100vh;
+  background-repeat: no-repeat;
   margin: 0;
   padding: 0;
   background-color: white;
@@ -35,8 +27,8 @@ body {
 }
 
 .card {
-  width: 300px;
-  height: 400px;
+  width: 70vw;
+  height:50vh;
   perspective: 1000px;
   transform-style: preserve-3d;
   transition: transform 0.5s;
@@ -95,7 +87,7 @@ body {
 }
 
 p {
-  font-size: 18px;
+  font-size: 2vmax;
   color: rgb(0, 0, 0);
   text-align: center;
   text-wrap: pretty;
@@ -135,3 +127,4 @@ p {
     opacity: 0;
   }
 }
+
